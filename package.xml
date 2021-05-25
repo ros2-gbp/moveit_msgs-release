@@ -1,6 +1,6 @@
 <package format="3">
   <name>moveit_msgs</name>
-  <version>2.0.0</version>
+  <version>2.0.1</version>
   <description>Messages, services and actions used by MoveIt</description>
   <author email="isucan@google.com">Ioan Sucan</author>
   <author email="sachinc@sri.com">Sachin Chitta</author>
@@ -32,6 +32,9 @@
   <exec_depend>rosidl_default_runtime</exec_depend>
 
   <member_of_group>rosidl_interface_packages</member_of_group>
+  
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_cmake</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
