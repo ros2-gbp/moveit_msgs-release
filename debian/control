@@ -1,0 +1,12 @@
+Source: ros-foxy-moveit-msgs
+Section: misc
+Priority: optional
+Maintainer: Dave Coleman <dave@dav.ee>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-action-msgs, ros-foxy-ament-cmake, ros-foxy-ament-lint-auto, ros-foxy-ament-lint-cmake, ros-foxy-geometry-msgs, ros-foxy-object-recognition-msgs, ros-foxy-octomap-msgs, ros-foxy-rosidl-default-generators, ros-foxy-sensor-msgs, ros-foxy-shape-msgs, ros-foxy-std-msgs, ros-foxy-trajectory-msgs, ros-foxy-ros-workspace, ros-foxy-rosidl-typesupport-fastrtps-c, ros-foxy-rosidl-typesupport-fastrtps-cpp, ros-foxy-rosidl-typesupport-connext-c, ros-foxy-rosidl-typesupport-connext-cpp
+Homepage: http://moveit.ros.org
+Standards-Version: 3.9.2
+
+Package: ros-foxy-moveit-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-action-msgs, ros-foxy-geometry-msgs, ros-foxy-object-recognition-msgs, ros-foxy-octomap-msgs, ros-foxy-rosidl-default-runtime, ros-foxy-sensor-msgs, ros-foxy-shape-msgs, ros-foxy-std-msgs, ros-foxy-trajectory-msgs, ros-foxy-ros-workspace
+Description: Messages, services and actions used by MoveIt
