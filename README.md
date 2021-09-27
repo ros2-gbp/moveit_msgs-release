@@ -1,3 +1,26 @@
+## moveit_msgs (galactic) - 2.1.1-1
+
+The packages in the `moveit_msgs` repository were released into the `galactic` distro by running `/usr/bin/bloom-release moveit_msgs -t galactic -r galactic` on `Mon, 27 Sep 2021 19:15:22 -0000`
+
+The `moveit_msgs` package was released.
+
+Version of package(s) in repository `moveit_msgs`:
+
+- upstream repository: https://github.com/ros-planning/moveit_msgs.git
+- release repository: https://github.com/moveit/moveit_msgs-release.git
+- rosdistro version: `2.1.0-1`
+- old version: `2.1.0-1`
+- new version: `2.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## moveit_msgs (rolling) - 2.1.0-1
 
 The packages in the `moveit_msgs` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling moveit_msgs` on `Thu, 17 Jun 2021 17:29:41 -0000`
