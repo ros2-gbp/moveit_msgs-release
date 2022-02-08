@@ -76,5 +76,4 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/ros-planning/moveit_msgs.git
-    version: 2.2.0
-    version_saved: :{ask}
+    version: :{ask}
