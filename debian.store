@@ -1,1 +1,1 @@
-{"base": "15625b6", "parent": "debian/rolling/moveit_msgs", "previous": "45fb5c1", "trim": "", "trimbase": ""}
+{"base": "6df2285", "parent": "debian/humble/moveit_msgs", "previous": "3c65669", "trim": "", "trimbase": ""}
