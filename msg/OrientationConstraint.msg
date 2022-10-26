@@ -9,6 +9,7 @@ geometry_msgs/Quaternion orientation
 string link_name
 
 # Tolerance on the three vector components of the orientation error (optional)
+# This is a +/- tolerance i.e. (+ x_axis_tol, - x_axis_tol)
 float64 absolute_x_axis_tolerance
 float64 absolute_y_axis_tolerance
 float64 absolute_z_axis_tolerance
