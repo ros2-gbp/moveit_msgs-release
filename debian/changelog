@@ -1,0 +1,188 @@
+ros-iron-moveit-msgs (2.2.1-3jammy) jammy; urgency=high
+
+  * Add more MoveItErrorCodes to match all OMPL codes (#146 <https://github.com/ros-planning/moveit_msgs/issues/146>)
+  * Factor of 2 in OMPL orientation constraints, to match kinematic_constraints (#145 <https://github.com/ros-planning/moveit_msgs/issues/145>)
+  * Note on constraint tolerances (#141 <https://github.com/ros-planning/moveit_msgs/issues/141>)
+  * Humble CI and prerelease (#139 <https://github.com/ros-planning/moveit_msgs/issues/139>)
+  * Contributors: AndyZe, Vatan Aksoy Tezer
+
+ -- Dave Coleman <dave@dav.ee>  Mon, 24 Oct 2022 16:00:00 -0000
+
+ros-iron-moveit-msgs (2.2.0-3jammy) jammy; urgency=high
+
+  * Add hybrid planning action definitons (#135 <https://github.com/ros-planning/moveit_msgs/issues/135>)
+  * Contributors: AndyZe, Sebastian Jahr, Tyler Weaver
+
+ -- Dave Coleman <dave@dav.ee>  Thu, 09 Dec 2021 16:00:00 -0000
+
+ros-iron-moveit-msgs (2.1.1-3jammy) jammy; urgency=high
+
+  * Add jerk to JointLimits.msg (#132 <https://github.com/ros-planning/moveit_msgs/issues/132>)
+  * Contributors: AndyZe
+
+ -- Dave Coleman <dave@dav.ee>  Sun, 26 Sep 2021 16:00:00 -0000
+
+ros-iron-moveit-msgs (2.1.0-3jammy) jammy; urgency=high
+
+  * Sync with master branch up to 460caab <https://github.com/ros-planning/moveit_msgs/commit/460caab755cfe018ad07effd7dd808127a7e5c61> (#120 <https://github.com/ros-planning/moveit_msgs/issues/120>)
+  * Enable CI on Rolling, Galactic (#117 <https://github.com/ros-planning/moveit_msgs/issues/117>)
+  * Pre-release testing workflow for ROS 2 (#118 <https://github.com/ros-planning/moveit_msgs/issues/118>)
+  * Contributors: Jafar Abdi, Henning Kayser, Tyler Weaver, Vatan Aksoy Tezer
+
+ -- Dave Coleman <dave@dav.ee>  Wed, 16 Jun 2021 16:00:00 -0000
+
+ros-iron-moveit-msgs (2.0.1-3jammy) jammy; urgency=high
+
+  * Add License Notice (#108 <https://github.com/ros-planning/moveit_msgs/issues/108>)
+  * Fix ccache in CI (#102 <https://github.com/ros-planning/moveit_msgs/issues/102>)
+  * Migrate to GitHub Actions (#99 <https://github.com/ros-planning/moveit_msgs/issues/99>)
+  * Contributors: Tyler Weaver
+
+ -- Dave Coleman <dave@dav.ee>  Sun, 23 May 2021 16:00:00 -0000
+
+ros-iron-moveit-msgs (2.0.0-3jammy) jammy; urgency=high
+
+  * [maint] Switch Travis to Foxy (#98 <https://github.com/ros-planning/moveit_msgs/issues/98>)
+    * Remove obsolete moveit_msgs.repos
+    * Enable CI test ament_lint
+  * [maint] Suppress Wredundant-decls warnings (#59 <https://github.com/ros-planning/moveit_msgs/issues/59>)
+  * [ros2-migration] Port moveit_msgs to ROS 2
+    * Migration to ROS 2 (AcutronicRobotics/moveit_msgs#1 <https://github.com/AcutronicRobotics/moveit_msgs/issues/1>)
+    * Add actions and include rosidl_default_runtime (AcutronicRobotics/moveit_msgs#2 <https://github.com/AcutronicRobotics/moveit_msgs/issues/2>, AcutronicRobotics/moveit_msgs#3 <https://github.com/AcutronicRobotics/moveit_msgs/issues/3>)
+  * Contributors: Alejandro Hernández Cordero, Henning Kayser, Lander Usategui San Juan, Mike Lautman, Robert Haschke, Víctor Mayoral Vilches, Yu Yan, ibaiape
+
+ -- Dave Coleman <dave@dav.ee>  Thu, 19 Nov 2020 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.11.1-3jammy) jammy; urgency=high
+
+  * [documentation] add disclaimer to CO about object pose not working yet (#90 <https://github.com/ros-planning/moveit_msgs/issues/90>)
+  * Contributors: Michael Görner
+
+ -- Dave Coleman <dave@dav.ee>  Thu, 08 Oct 2020 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.11.0-3jammy) jammy; urgency=high
+
+  * [feature] add {prismatic,revolute}_jump_threshold (#84 <https://github.com/ros-planning/moveit_msgs/issues/84>)
+  * [feature] Add service to update pointcloud octomap (#66 <https://github.com/ros-planning/moveit_msgs/issues/66>)
+  * [feature] Add messages to plan for sequences (#65 <https://github.com/ros-planning/moveit_msgs/issues/65>)
+  * [feature] Change jogging drift dimensions (#63 <https://github.com/ros-planning/moveit_msgs/issues/63>)
+  * [feature] Add ChangeControlDimensions.srv for moveit_jog_arm (#61 <https://github.com/ros-planning/moveit_msgs/issues/61>)
+  * [feature] Ability to hide visualized robot states (#55 <https://github.com/ros-planning/moveit_msgs/issues/55>)
+  * [feature] Add fields to set max Cartesian end effector speed (#80 <https://github.com/ros-planning/moveit_msgs/issues/80>)
+  * [feature] Remove attempts field from PositionIKRequest.msg (#76 <https://github.com/ros-planning/moveit_msgs/issues/76>)
+  * [feature] add COMMUNICATION_FAILURE (#73 <https://github.com/ros-planning/moveit_msgs/issues/73>)
+  * [feature] Add origin Pose to CollisionObject (#69 <https://github.com/ros-planning/moveit_msgs/issues/69>)
+  * [feature] Add field quality to PlaceLocation (#64 <https://github.com/ros-planning/moveit_msgs/issues/64>)
+  * [feature] Extend MotionPlanRequest with seed trajectories (#46 <https://github.com/ros-planning/moveit_msgs/issues/46>)
+  * [feature] Allow subframes in CollisionObjects (#50 <https://github.com/ros-planning/moveit_msgs/issues/50>)
+  * Contributors: 2scholz, AdamPettinger, AndyZe, Bence Magyar, Bryce Willey, Christian Henkel, Dale Koenig, Dave Coleman, Felix von Drigalski, Jens P, Markus Vieth, Michael Görner, Naoya Yamaguchi, Robert Haschke
+
+ -- Dave Coleman <dave@dav.ee>  Tue, 18 Aug 2020 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.10.0-3jammy) jammy; urgency=high
+
+  * [capability] Add fields to store planning time in pick-and-place #43 <https://github.com/ros-planning/moveit_msgs/issues/43>
+  * Contributors: Akiyoshi Ochiai
+
+ -- Dave Coleman <dave@dav.ee>  Mon, 16 Apr 2018 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.9.1-3jammy) jammy; urgency=high
+
+  * [improve] Removed identical services per issue and unused service #4 <https://github.com/ros-planning/moveit_msgs/issues/4>
+  * Contributors: Dave Coleman
+
+ -- Dave Coleman <dave@dav.ee>  Sun, 05 Feb 2017 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.9.0-3jammy) jammy; urgency=high
+
+  * [capability] new GraspPlanning service to replace manipulation_msgs version (#32 <https://github.com/ros-planning/moveit_msgs/issues/32>)
+  * [maintenance] Switch travis to moveit_ci (#31 <https://github.com/ros-planning/moveit_msgs/issues/31>)
+  * [enhancement] Add note in ExecuteKnownTrajectory service to recommend ExecuteTrajectory action. #29 <https://github.com/ros-planning/moveit_msgs/issues/29>
+  * Contributors: Dave Coleman, Isaac I.Y. Saito, Jntzko
+
+ -- Dave Coleman <dave@dav.ee>  Mon, 14 Nov 2016 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.8.3-3jammy) jammy; urgency=high
+
+  * [fix] broken maintainer tags (#28 <https://github.com/ros-planning/moveit_msgs/issues/28>)
+  * Contributors: Michael Goerner
+
+ -- Dave Coleman <dave@dav.ee>  Sun, 21 Aug 2016 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.8.2-3jammy) jammy; urgency=high
+
+  * Add ExecuteTrajectory.action for execution trajectory in a ROS action (#24 <https://github.com/ros-planning/moveit_msgs/issues/24>), (#27 <https://github.com/ros-planning/moveit_msgs/issues/27>)
+  * [fix] Update maintainers. Bad encoding. #26 <https://github.com/ros-planning/moveit_msgs/issues/26>
+  * Contributors: Kentaro Wada, Isaac I.Y. Saito
+
+ -- Dave Coleman <dave@dav.ee>  Fri, 19 Aug 2016 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.8.1-3jammy) jammy; urgency=high
+
+  * [feat] add new srv ApplyPlanningScene #21 <https://github.com/ros-planning/moveit_msgs/issues/21>
+    This service takes a PlanningScene message and applies it to the monitored scene. Ideally it should include a bool success field, but it is not possible to apply the scene and check for success without ABI changes, so leave it out for now. To get this change pushed to indigo.
+  * [feat] apply_planning_scene: add a success field in response
+    This will be set to true in indigo, but might return false in kinetic and upcoming after we broke the underlying API to get that information.
+  * Contributors: Dave Coleman, Michael Goerner
+
+ -- Dave Coleman <dave@dav.ee>  Tue, 14 Jun 2016 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.7.1-3jammy) jammy; urgency=high
+
+  * [feat] **MD5 change** Adding acceleration scaling factor (Cherry-pick #17 <https://github.com/ros-planning/moveit_msgs/issues/17> into jade) #20 <https://github.com/ros-planning/moveit_msgs/issues/20>
+  * Contributors: Dave Coleman, hemes
+
+ -- Dave Coleman <dave@dav.ee>  Tue, 12 Apr 2016 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.7.0-3jammy) jammy; urgency=high
+
+  * add db state
+  * added services for delete and rename
+  * added services for warehouse access
+  * Contributors: Sachin Chitta, dg
+
+ -- Dave Coleman <dave@dav.ee>  Fri, 29 Jan 2016 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.6.1-3jammy) jammy; urgency=high
+
+  * Add max_velocity_scaling_factor to MotionPlanRequest.
+  * Contributors: Michael Ferguson, kohlbrecher
+
+ -- Dave Coleman <dave@dav.ee>  Wed, 07 Jan 2015 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.5.4-3jammy) jammy; urgency=high
+
+  * update e-mail addresses
+  * Contributors: Ioan Sucan
+
+ -- Dave Coleman <dave@dav.ee>  Sun, 09 Mar 2014 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.5.3-3jammy) jammy; urgency=high
+
+  * Added some verbose explanatory comments to Grasp message.
+  * Added planning time to move group action result.
+
+ -- Dave Coleman <dave@dav.ee>  Mon, 02 Dec 2013 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.5.2-3jammy) jammy; urgency=high
+
+  * add diff flag for RobotState
+  * add option for how place positions are interpreted: object pose or eef pose
+  * no longer depend on manipulation_msgs
+
+ -- Dave Coleman <dave@dav.ee>  Sun, 22 Sep 2013 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.5.1-3jammy) jammy; urgency=high
+
+  * remove CollisionMap message
+
+ -- Dave Coleman <dave@dav.ee>  Mon, 12 Aug 2013 16:00:00 -0000
+
+ros-iron-moveit-msgs (0.5.0-3jammy) jammy; urgency=high
+
+  * move msgs to common_msgs
+  * removing unneeded member
+
+ -- Dave Coleman <dave@dav.ee>  Sun, 14 Jul 2013 16:00:00 -0000
+
+
