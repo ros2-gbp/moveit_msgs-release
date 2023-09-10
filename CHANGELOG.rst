@@ -2,6 +2,27 @@
 Changelog for package moveit_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.0 (2023-09-10)
+------------------
+* Remove drift and control dimension services, add ServoCommandType service and ServoStatus message (`#161 <https://github.com/ros-planning/moveit_msgs/issues/161>`_)
+* Merge commit '1c7f63e' into ros2
+* Add controller names to execution (`#160 <https://github.com/ros-planning/moveit_msgs/issues/160>`_)
+* 0.11.3
+* Rename: cartesian_speed_end_effector_link -> cartesian_speed_limited_link (`#130 <https://github.com/ros-planning/moveit_msgs/issues/130>`_)
+  Co-authored-by: Thies Oelerich <thies.oelerich@iwu.fraunhofer.de>
+* clean all trailing whitespace in definitions (`#134 <https://github.com/ros-planning/moveit_msgs/issues/134>`_)
+* CI: Update pat-s/always-upload-cache
+* Remove disclaimer from CollisionObject pose (`#126 <https://github.com/ros-planning/moveit_msgs/issues/126>`_)
+  With https://github.com/ros-planning/moveit/pull/2037 merged, this disclaimer can be removed
+* fix long comments in msg (`#123 <https://github.com/ros-planning/moveit_msgs/issues/123>`_)
+* Added message fields for setting the maximum cartesian end effector for cartesian paths (`#113 <https://github.com/ros-planning/moveit_msgs/issues/113>`_)
+  * Added message fields for setting the maximum cartesian end effector
+  speed of the computed path.
+  * Add disclaimer for (yet) unsupported field
+  Co-authored-by: Thies Oelerich <thies.oelerich@iwu.fraunhofer.de>
+  Co-authored-by: Michael Görner <me@v4hn.de>
+* Contributors: Felix von Drigalski, Henning Kayser, Michael Görner, Peter Mitrano, Robert Haschke, Stephanie Eng, Thies Oelerich, V Mohammed Ibrahim, Vatan Aksoy Tezer
+
 2.2.2 (2023-05-12)
 ------------------
 * Remove disclaimer from CollisionObject pose (`#126 <https://github.com/ros-planning/moveit_msgs/issues/126>`_)
@@ -53,6 +74,24 @@ Changelog for package moveit_msgs
   * Migration to ROS 2 (`AcutronicRobotics/moveit_msgs#1 <https://github.com/AcutronicRobotics/moveit_msgs/issues/1>`_)
   * Add actions and include rosidl_default_runtime (`AcutronicRobotics/moveit_msgs#2 <https://github.com/AcutronicRobotics/moveit_msgs/issues/2>`_, `AcutronicRobotics/moveit_msgs#3 <https://github.com/AcutronicRobotics/moveit_msgs/issues/3>`_)
 * Contributors: Alejandro Hernández Cordero, Henning Kayser, Lander Usategui San Juan, Mike Lautman, Robert Haschke, Víctor Mayoral Vilches, Yu Yan, ibaiape
+
+0.11.3 (2022-09-13)
+-------------------
+* Rename: cartesian_speed_end_effector_link -> cartesian_speed_limited_link (`#130 <https://github.com/ros-planning/moveit_msgs/issues/130>`_)
+* Clean all trailing whitespace in definitions (`#134 <https://github.com/ros-planning/moveit_msgs/issues/134>`_)
+* Remove disclaimer from ``CollisionObject/pose`` (`#126 <https://github.com/ros-planning/moveit_msgs/issues/126>`_)
+* Improve comments (`#123 <https://github.com/ros-planning/moveit_msgs/issues/123>`_)
+* ``GetCartesianPath.srv``: added fields to set for the maximum cartesian end effector (`#113 <https://github.com/ros-planning/moveit_msgs/issues/113>`_)
+* Remove erroneous comment from Pickup/Place action files (`#112 <https://github.com/ros-planning/moveit_msgs/issues/112>`_)
+* Add ``LICENSE.txt`` (`#107 <https://github.com/ros-planning/moveit_msgs/issues/107>`_)
+* Contributors: Felix von Drigalski, Jorge Santos Simón, Michael Görner, Peter Mitrano, Thies Oelerich, Tyler Weaver, Vatan Aksoy Tezer
+
+0.11.2 (2021-04-08)
+-------------------
+* Migrate to GitHub actions (`#100 <https://github.com/ros-planning/moveit_msgs/issues/100>`_)
+* Support specifying pipeline ids with planning requests (`#95 <https://github.com/ros-planning/moveit_msgs/issues/95>`_)
+* Add parameterization type to orientation constraints (`#96 <https://github.com/ros-planning/moveit_msgs/issues/96>`_)
+* Contributors: Henning Kayser, Jeroen, Robert Haschke, Tyler Weaver
 
 0.11.1 (2020-10-09)
 -------------------
