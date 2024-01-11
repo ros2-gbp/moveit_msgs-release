@@ -2,6 +2,7 @@ int32 val
 
 # overall behavior
 int32 SUCCESS=1
+int32 UNDEFINED=0
 int32 FAILURE=99999
 
 int32 PLANNING_FAILED=-1
@@ -40,3 +41,10 @@ int32 ABORT=-30
 
 # kinematics errors
 int32 NO_IK_SOLUTION=-31
+
+# A message to provide additional information.
+string message
+
+# Name of the component that created the status.
+# This is helpful to locate error source.
+string source
