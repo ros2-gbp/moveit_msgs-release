@@ -1,3 +1,26 @@
+## moveit_msgs (rolling) - 2.5.0-1
+
+The packages in the `moveit_msgs` repository were released into the `rolling` distro by running `/home/henning/.local/bin/bloom-release --ros-distro rolling --edit moveit_msgs` on `Fri, 07 Jun 2024 22:46:34 -0000`
+
+The `moveit_msgs` package was released.
+
+Version of package(s) in repository `moveit_msgs`:
+
+- upstream repository: https://github.com/moveit/moveit_msgs.git
+- release repository: https://github.com/ros2-gbp/moveit_msgs-release.git
+- rosdistro version: `2.4.0-2`
+- old version: `2.4.0-2`
+- new version: `2.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## moveit_msgs (jazzy) - 2.5.0-1
 
 The packages in the `moveit_msgs` repository were released into the `jazzy` distro by running `/home/henning/.local/bin/bloom-release --ros-distro jazzy --edit moveit_msgs` on `Fri, 07 Jun 2024 22:43:31 -0000`
