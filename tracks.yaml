@@ -154,5 +154,5 @@ tracks:
     release_tag: :{version}
     ros_distro: rolling
     vcs_type: git
-    vcs_uri: https://github.com/ros-planning/moveit_msgs.git
+    vcs_uri: https://github.com/moveit/moveit_msgs.git
     version: :{ask}
