@@ -56,3 +56,6 @@ float64 max_acceleration_scaling_factor
 # These fields require the following planning request adapter: default_planning_request_adapters/LimitMaxCartesianLinkSpeed
 string cartesian_speed_limited_link
 float64 max_cartesian_speed # m/s
+# smoothness of trajectory for FREE command of Pilz planner
+# Value should be between 0.01 and 1.0
+float64 smoothness_level
