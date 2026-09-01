@@ -51,11 +51,8 @@ float64 allowed_planning_time
 float64 max_velocity_scaling_factor
 float64 max_acceleration_scaling_factor
 
-# Maximum cartesian speed for the given link.
+# Maximum cartesian speed for the given end effector.
 # If max_cartesian_speed <= 0 the trajectory is not modified.
-# These fields require the following planning request adapter: default_planning_request_adapters/LimitMaxCartesianLinkSpeed
-string cartesian_speed_limited_link
+# These fields require the following planning request adapter: default_planner_request_adapters/SetMaxCartesianEndEffectorSpeed
+string cartesian_speed_end_effector_link
 float64 max_cartesian_speed # m/s
-# smoothness of trajectory for FREE command of Pilz planner
-# Value should be between 0.01 and 1.0
-float64 smoothness_level

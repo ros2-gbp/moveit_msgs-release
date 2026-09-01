@@ -2,80 +2,10 @@
 Changelog for package moveit_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.7.2 (2026-08-14)
+2.2.3 (2026-09-01)
 ------------------
-* Add smoothness_level for FREE path Pilz command (`#190 <https://github.com/ros-planning/moveit_msgs/issues/190>`_)
-* Contributors: AimanHaidar
-
-2.7.1 (2025-07-15)
-------------------
-* Address 2.7.0 release issues via re-release as 2.7.1
-* Contributors: Nathan Brooks
-
-2.7.0 (2025-07-14)
-------------------
-* Add GetMultiStateValidity service (`#186 <https://github.com/moveit/moveit_msgs/issues/186>`_)
-  Co-authored-by: Aiden <148049589+rr-aiden@users.noreply.github.com>
-* CI: Update actions
-* Contributors: Lucian James, Robert Haschke
-
-2.6.0 (2024-09-16)
-------------------
-* Add services for `LoadGeometryFromFile` and `SaveGeometryToFile` services (`#181 <https://github.com/ros-planning/moveit_msgs/issues/181>`_)
-* Contributors: Bilal Gill
-
-2.5.0 (2024-06-07)
-------------------
-* Update CI jobs to run Jazzy, Iron
-* Adds get group urdf service (`#174 <https://github.com/ros-planning/moveit_msgs/issues/174>`_)
-  * Add service
-  * Format
-  * Format and use MoveItErrorCode
-* Contributors: Henning Kayser, Sebastian Jahr
-
-2.4.0 (2024-01-11)
-------------------
-* Add error message string to MoveItErrorCode msg (`#171 <https://github.com/ros-planning/moveit_msgs/issues/171>`_)
-  * Add error message string to MoveItErrorCode msg
-  * Add error source string
-  * Add comments
-  * Update msg/MoveItErrorCodes.msg
-  Co-authored-by: Sebastian Jahr <sebastian.jahr@tuta.io>
-  * Update msg/MoveItErrorCodes.msg
-  Co-authored-by: Sebastian Jahr <sebastian.jahr@picknik.ai>
-  ---------
-  Co-authored-by: Sebastian Jahr <sebastian.jahr@picknik.ai>
-* Defined UNDEFINED (`#172 <https://github.com/ros-planning/moveit_msgs/issues/172>`_)
-* Add PipelineState msg
-* Merge CI updates from branch 'master' into ros2
-* CI: Update GHA (`#166 <https://github.com/ros-planning/moveit_msgs/issues/166>`_)
-* Merge CI updates from branch 'master' into ros2
-* CI: Update .pre-commit-config.yaml (`#163 <https://github.com/ros-planning/moveit_msgs/issues/163>`_)
-* CI format.yml: Update GHA
-* 0.11.4
-* Add more MoveItErrorCodes to match all OMPL codes (`#147 <https://github.com/ros-planning/moveit_msgs/issues/147>`_)
-* Contributors: Abishalini Sivaraman, AndyZe, Robert Haschke, Sebastian Jahr, mosfet80
-
-2.3.0 (2023-09-10)
-------------------
-* Remove drift and control dimension services, add ServoCommandType service and ServoStatus message (`#161 <https://github.com/ros-planning/moveit_msgs/issues/161>`_)
-* Merge commit '1c7f63e' into ros2
-* Add controller names to execution (`#160 <https://github.com/ros-planning/moveit_msgs/issues/160>`_)
-* 0.11.3
-* Rename: cartesian_speed_end_effector_link -> cartesian_speed_limited_link (`#130 <https://github.com/ros-planning/moveit_msgs/issues/130>`_)
-  Co-authored-by: Thies Oelerich <thies.oelerich@iwu.fraunhofer.de>
-* clean all trailing whitespace in definitions (`#134 <https://github.com/ros-planning/moveit_msgs/issues/134>`_)
-* CI: Update pat-s/always-upload-cache
-* Remove disclaimer from CollisionObject pose (`#126 <https://github.com/ros-planning/moveit_msgs/issues/126>`_)
-  With https://github.com/ros-planning/moveit/pull/2037 merged, this disclaimer can be removed
-* fix long comments in msg (`#123 <https://github.com/ros-planning/moveit_msgs/issues/123>`_)
-* Added message fields for setting the maximum cartesian end effector for cartesian paths (`#113 <https://github.com/ros-planning/moveit_msgs/issues/113>`_)
-  * Added message fields for setting the maximum cartesian end effector
-  speed of the computed path.
-  * Add disclaimer for (yet) unsupported field
-  Co-authored-by: Thies Oelerich <thies.oelerich@iwu.fraunhofer.de>
-  Co-authored-by: Michael Görner <me@v4hn.de>
-* Contributors: Felix von Drigalski, Henning Kayser, Michael Görner, Peter Mitrano, Robert Haschke, Stephanie Eng, Thies Oelerich, V Mohammed Ibrahim, Vatan Aksoy Tezer
+* Add GetMultiStateValidity service (`#186 <https://github.com/ros-planning/moveit_msgs/issues/186>`_)
+* Contributors: Lucian James
 
 2.2.2 (2023-05-12)
 ------------------
@@ -128,24 +58,6 @@ Changelog for package moveit_msgs
   * Migration to ROS 2 (`AcutronicRobotics/moveit_msgs#1 <https://github.com/AcutronicRobotics/moveit_msgs/issues/1>`_)
   * Add actions and include rosidl_default_runtime (`AcutronicRobotics/moveit_msgs#2 <https://github.com/AcutronicRobotics/moveit_msgs/issues/2>`_, `AcutronicRobotics/moveit_msgs#3 <https://github.com/AcutronicRobotics/moveit_msgs/issues/3>`_)
 * Contributors: Alejandro Hernández Cordero, Henning Kayser, Lander Usategui San Juan, Mike Lautman, Robert Haschke, Víctor Mayoral Vilches, Yu Yan, ibaiape
-
-0.11.3 (2022-09-13)
--------------------
-* Rename: cartesian_speed_end_effector_link -> cartesian_speed_limited_link (`#130 <https://github.com/ros-planning/moveit_msgs/issues/130>`_)
-* Clean all trailing whitespace in definitions (`#134 <https://github.com/ros-planning/moveit_msgs/issues/134>`_)
-* Remove disclaimer from ``CollisionObject/pose`` (`#126 <https://github.com/ros-planning/moveit_msgs/issues/126>`_)
-* Improve comments (`#123 <https://github.com/ros-planning/moveit_msgs/issues/123>`_)
-* ``GetCartesianPath.srv``: added fields to set for the maximum cartesian end effector (`#113 <https://github.com/ros-planning/moveit_msgs/issues/113>`_)
-* Remove erroneous comment from Pickup/Place action files (`#112 <https://github.com/ros-planning/moveit_msgs/issues/112>`_)
-* Add ``LICENSE.txt`` (`#107 <https://github.com/ros-planning/moveit_msgs/issues/107>`_)
-* Contributors: Felix von Drigalski, Jorge Santos Simón, Michael Görner, Peter Mitrano, Thies Oelerich, Tyler Weaver, Vatan Aksoy Tezer
-
-0.11.2 (2021-04-08)
--------------------
-* Migrate to GitHub actions (`#100 <https://github.com/ros-planning/moveit_msgs/issues/100>`_)
-* Support specifying pipeline ids with planning requests (`#95 <https://github.com/ros-planning/moveit_msgs/issues/95>`_)
-* Add parameterization type to orientation constraints (`#96 <https://github.com/ros-planning/moveit_msgs/issues/96>`_)
-* Contributors: Henning Kayser, Jeroen, Robert Haschke, Tyler Weaver
 
 0.11.1 (2020-10-09)
 -------------------
