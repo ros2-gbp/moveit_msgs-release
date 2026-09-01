@@ -1,3 +1,26 @@
+## moveit_msgs (humble) - 2.2.3-1
+
+The packages in the `moveit_msgs` repository were released into the `humble` distro by running `/usr/bin/bloom-release --ros-distro humble moveit_msgs -e` on `Tue, 01 Sep 2026 08:45:20 -0000`
+
+The `moveit_msgs` package was released.
+
+Version of package(s) in repository `moveit_msgs`:
+
+- upstream repository: https://github.com/ros-planning/moveit_msgs.git
+- release repository: https://github.com/ros2-gbp/moveit_msgs-release.git
+- rosdistro version: `2.2.1-1`
+- old version: `2.2.2-1`
+- new version: `2.2.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## moveit_msgs (rolling) - 2.7.2-1
 
 The packages in the `moveit_msgs` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --ros-distro rolling moveit_msgs` on `Fri, 14 Aug 2026 14:41:29 -0000`
